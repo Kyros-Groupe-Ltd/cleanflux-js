@@ -54,7 +54,7 @@ class CleanFlux {
    * @throws {Error} On non-2xx responses
    */
   async _request(endpoint, payload) {
-    const url = `${this.baseUrl}/${endpoint}`;
+    const url = `${this.baseUrl}/api/${endpoint}`;
 
     const response = await fetch(url, {
       method: 'POST',
@@ -183,7 +183,7 @@ class CleanFlux {
    * console.log(result.status); // 'ok'
    */
   async ping() {
-    const url = `${this.baseUrl}/ping`;
+    const url = `${this.baseUrl}/api/ping`;
 
     const response = await fetch(url, {
       method: 'GET',
