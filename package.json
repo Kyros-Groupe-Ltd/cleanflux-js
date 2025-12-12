@@ -1,0 +1,43 @@
+{
+  "name": "cleanflux-ai",
+  "version": "1.0.0",
+  "description": "Official JavaScript SDK for the CleanFlux-AI text cleaning API",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "cleanflux",
+    "text-cleaning",
+    "content-moderation",
+    "profanity-filter",
+    "url-extraction",
+    "text-normalization",
+    "api-sdk",
+    "ai",
+    "nlp",
+    "text-processing"
+  ],
+  "author": "Kyros Groupe Ltd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kyros-Groupe-Ltd/cleanflux-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kyros-Groupe-Ltd/cleanflux-js/issues"
+  },
+  "homepage": "https://cleanflux.ai",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
