@@ -59,7 +59,7 @@ class CleanFlux {
     const response = await fetch(url, {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer ${this.apiKey}`,
+        'x-api-key': this.apiKey,
         'Content-Type': 'application/json',
         'User-Agent': 'cleanflux-js/1.0.0'
       },
@@ -198,3 +198,4 @@ class CleanFlux {
 
 export default CleanFlux;
 export { CleanFlux };
+
